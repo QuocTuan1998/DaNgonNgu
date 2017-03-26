@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quoctuan.dangonngu.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMuaXuan"
+        android:text="@string/muaXuan"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMuaXuan"
+        android:id="@+id/txtMuaHa"
+        android:text="@string/muaHe"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMuaHa"
+        android:id="@+id/txtMuaThu"
+        android:text="@string/muaThu"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMuaThu"
+        android:id="@+id/txtMuaDong"
+        android:text="@string/muaDong"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+
+</RelativeLayout>
